@@ -1,0 +1,33 @@
+/* Seccion 01 galeria de videos */
+.galeria-sec-01{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.galeria-sec-01-eper{
+    padding-top: 20px;
+}
+
+.galeria-sec-01-otor{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.galeria-sec-01 .col-4{
+    padding-left: 10px;
+}
+
+/* Seccion 02 tabla informativa */
+.galeria-sec-02{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.galeria-sec-02-hawn{
+    padding-top: 20px;
+}
+
+.galeria-sec-02-poek{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}

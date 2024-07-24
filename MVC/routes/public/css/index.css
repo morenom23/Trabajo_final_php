@@ -1,0 +1,132 @@
+/* Seccion 01 slide */
+.index-sec-01 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.slide-project{
+    padding-top: 350px;
+}
+
+.slide-nurtwn{
+    padding-top: 15px;
+}
+
+.slide-arrows{
+    padding-top: 100px;
+}
+
+.slide-numbers{
+    padding-top: 110px;
+}
+
+.index-sec-01-div{
+    position: relative; 
+    display: inline-block;
+}
+
+.index-sec-01-bnt{
+    position: absolute; 
+    top: 95.5%; 
+    left: 14.9%; 
+    transform: translate(-50%, -50%);
+}
+
+.index-sec-01-banner {
+    height: 829px;
+}
+
+/* Seccion 02 banner */
+.index-sec-02{
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: #fbfbfb;
+    height: 450px;
+}
+
+.index-sec-02-img-01{
+    padding-left: 100px;
+}
+
+.index-sec-02-img-02{
+    padding-left: 100px; 
+    padding-top: 40px;
+}
+
+.index-sec-02-img-03{
+    padding-left: 120px;
+}
+
+/* Seccion 03 texto informativo */
+.index-sec-03{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-sec-03 p{
+    font-size: 22px;
+}
+.index-sec-03-text-2{
+    padding-left: 30px;
+}
+
+/* Seccion 04 galeria de imagenes */
+.index-sec-04{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-sec-04-cont-galeria{
+    position: relative; 
+    display: inline-block;
+}
+
+.index-sec-04-fondo-text{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.index-sec-04-img{
+    padding-left: 72px;
+}
+
+.index-sec-04-bnt{
+    margin-top: 50px;
+}
+
+.index-sec-04-imgs{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+/* Seccion 05 formulario */
+.index-sec-05{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-sec-05 p{
+    padding-left: 2.5rem;
+    font-size: 9pt;
+}
+
+.index-sec-05-input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8d8d8d;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f3f3f3;
+    background-clip: padding-box;
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

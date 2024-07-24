@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+.navbar-collapse {
+    align-items: end;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+h3{
+    font-size: 64px;
+    color: #BDBDBD;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.icon-footer{
+    color: #fff;
+}
+
+/* Esilos de botones */
+.global-01-bnt{
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    background-color: #fff;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.global-01-bnt:hover{
+    color: #fff;
+    border: 1px solid #333;
+    background-color: #333;
+}
+
+.global-02-bnt{
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #333;
+    border-radius: 0px;
+    background-color: #333;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.global-02-bnt:hover{
+    color: #333;
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+/* Seccion header */
+.sec-header img{
+    height: 43.71px;
+}
+
+.sec-header li{
+    margin-right: 50px;
+}
+
+.linea-menu{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/* Seccion footer */
+footer{
+    background: #2C2C2C;
+    color: #fff;
+}
+
+.sec-footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.sec-footer h6{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.sec-footer img{
+    height: 94px;
+}
+
+.sec-footer ul {
+    padding-left: 0;
+}
+
+.sec-footer li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.sec-footer p{
+    padding-bottom: 20px;
+}
+
+.sec-footer span i{
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Seccion Copyright */
+.sec-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-copyright p{
+    text-align: center;
+    color: #C8C8C8;
+    opacity: 0.5;
+}
+
+/* Seccion 00 botones flotantes */
+.btn-login {
+    width: 230px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: regular;
+    color: #ffff;
+    border-radius: 0px;
+    border: 1px solid #333;
+    letter-spacing: 2px;
+    background-color: #333;
+    padding: 18px 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    border: 1px solid #333;
+}
+
+.btn-formulario {
+    width: 230px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: regular;
+    color: #ffff;
+    border-radius: 0px;
+    border: 1px solid #333;
+    letter-spacing: 2px;
+    background-color: #333;
+    padding: 18px 30px;
+    position: fixed;
+    bottom: 250px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none;
+}
+
+.btn-formulario:hover {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    border: 1px solid #333;
+}
+
+.btn-contacto {
+    width: 230px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: regular;
+    color: #ffff;
+    border-radius: 0px;
+    border: 1px solid #333;
+    letter-spacing: 2px;
+    background-color: #333;
+    padding: 18px 30px;
+    position: fixed;
+    bottom: 180px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none;
+}
+
+.btn-contacto:hover {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    border: 1px solid #333;
+}
+
+.btn-galeria {
+    width: 230px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: regular;
+    color: #ffff;
+    border-radius: 0px;
+    border: 1px solid #333;
+    letter-spacing: 2px;
+    background-color: #333;
+    padding: 18px 30px;
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none;
+}
+
+.btn-galeria:hover {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    border: 1px solid #333;
+}

@@ -1,0 +1,33 @@
+/* Seccion 01 informacion y mapa */
+.contacto-sec-01{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.contacto-sec-01-kohtak{
+    padding-top: 70px;
+}
+
+.contacto-sec-01-nhop{
+    padding-top: 15px;
+}
+
+.contacto-sec-01-text-1{
+    font-size: 14pt;
+    font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.contacto-sec-01-text-2{
+    font-size: 11pt;
+}
+
+.contacto-sec-01-tel{
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.contacto-sec-01-email{
+    padding-top: 30px;
+}

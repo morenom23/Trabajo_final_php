@@ -1,0 +1,18 @@
+<?php
+    class cerveza{
+        private $nombre;
+        private $marca;
+    
+
+        public function __construct($nombre, $marca){
+            $this->nombre = $nombre;
+            $this->marca = $marca;
+        }
+
+        public function getNombre(){
+            return $this->nombre;
+        }
+        public function getMarca(){
+            return $this->marca;
+        }
+    }
